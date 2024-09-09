@@ -1,3 +1,7 @@
 [submodule "src/mocap4ros2_qualisys"]
 	path = src/mocap4ros2_qualisys
 	url = https://github.com/Cionix90/mocap4ros2_qualisys.git
+
+[submodule "src/Pronto_Estimator"]
+	path = src/Pronto_Estimator
+	url = https://github.com/CentroEPiaggio/Pronto_Estimator.git
