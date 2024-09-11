@@ -25,8 +25,9 @@ RUN apt-get update \
     libeigen3-dev \
     nano \
     ros-humble-rviz2 \
-    nautilus
-
+    nautilus \ 
+    iputils-ping \
+    iproute2
 # Adapt your desired python version here    
 # ENV PATH=/opt/openrobots/bin:$PATH 
 # ENV PKG_CONFIG_PATH=/opt/openrobots/lib/pkgconfig:$PKG_CONFIG_PATH 
