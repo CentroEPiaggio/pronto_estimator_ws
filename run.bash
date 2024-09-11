@@ -22,6 +22,10 @@ docker run \
     --net=host \
     -it \
     -v $(pwd):/home/ros/$WORKSPACE \
+    --device=/dev/input/js0 \
+    --device=/dev/input/event24 \
+    --device=/dev/input/event25 \
+    --device=/dev/input/event26 \
     --env="HISTFILE=/home/ros/.bash_history" \
     --env="HISTFILESIZE=2000" \
     -v ~/.bash_history:/home/ros/.bash_history \

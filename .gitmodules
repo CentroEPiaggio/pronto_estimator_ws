@@ -5,3 +5,6 @@
 [submodule "src/Pronto_Estimator"]
 	path = src/Pronto_Estimator
 	url = https://github.com/CentroEPiaggio/Pronto_Estimator.git
+[submodule "src/Omni_Mulinex_Joystic_OPC"]
+	path = src/Omni_Mulinex_Joystic_OPC
+	url = https://github.com/CentroEPiaggio/Omni_Mulinex_Joystic_OPC.git
