@@ -26,6 +26,7 @@ docker run \
     --env="HISTFILESIZE=2000" \
     -v ~/.bash_history:/home/ros/.bash_history \
     --device=/dev/dri:/dev/dri \
+    --privileged -v /dev/input:/dev/input \
     --rm \
     --env="DISPLAY=$DISPLAY" \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
