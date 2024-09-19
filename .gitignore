@@ -1,3 +1,5 @@
 /build 
 /install 
 /log
+src/mocap
+src/mocap_msgs
