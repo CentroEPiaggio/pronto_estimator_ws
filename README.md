@@ -11,6 +11,8 @@ First of all clone this repository, then initialize the git submodule inside the
 
 ``` git submodule update --init --recursive ```
 
+``` vcs import < src/mocap4ros2_qualisys/dependency_repos.repos ```
+
 Then you have to build the docker image:
 
 ``` bash build.bash ```
