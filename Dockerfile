@@ -19,6 +19,7 @@ RUN apt-get update \
     ros-humble-ros2-control \
     ros-humble-ros2-controllers \
     ros-humble-xacro \
+    ros-humble-rosbag2-storage-mcap \
     ros-humble-plotjuggler-ros \
     tmux python3-pip\
     xterm \
@@ -27,7 +28,7 @@ RUN apt-get update \
     ros-humble-rviz2 \
     nautilus \ 
     iputils-ping \
-    iproute2
+    iproute2 
 # Adapt your desired python version here    
 # ENV PATH=/opt/openrobots/bin:$PATH 
 # ENV PKG_CONFIG_PATH=/opt/openrobots/lib/pkgconfig:$PKG_CONFIG_PATH 
