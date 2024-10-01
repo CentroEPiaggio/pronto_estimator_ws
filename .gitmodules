@@ -13,3 +13,8 @@
 [submodule "src/rf2o_2d_lidar_odom"]
 	path = src/rf2o_2d_lidar_odom
 	url = https://github.com/CentroEPiaggio/rf2o_2d_lidar_odom.git
+
+
+[submodule "src/mulinex_description"]
+	path = src/mulinex_description
+	url = https://github.com/CentroEPiaggio/mulinex_description.git
