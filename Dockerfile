@@ -21,6 +21,7 @@ RUN apt-get update \
     ros-humble-xacro \
     ros-humble-rosbag2-storage-mcap \
     ros-humble-plotjuggler-ros \
+    chrony \
     tmux python3-pip\
     xterm \
     libeigen3-dev \
