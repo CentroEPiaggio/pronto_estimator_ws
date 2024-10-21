@@ -16,3 +16,7 @@
 [submodule "src/mulinex_description"]
 	path = src/mulinex_description
 	url = https://github.com/CentroEPiaggio/mulinex_description.git
+
+[submodule "src/mocap4ros2_qualisys"]
+	path = src/mocap4ros2_qualisys
+	url = https://github.com/Cionix90/mocap4ros2_qualisys.git
